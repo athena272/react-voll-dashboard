@@ -29,22 +29,22 @@ export default function Footer() {
         <StyledFooter>
             <StyledList>
                 <StyledList>
-                    <a href="#">
+                    <a href="https://wa.me/7999007075?text=Gostei do seu trabalho e gostaria de conhecer mais sobre, por favor" target='_blank' rel='noreferrer'>
                         <img src={facebook} alt="logo do facebook" />
                     </a>
                 </StyledList>
                 <StyledList>
-                    <a href="#">
+                    <a href="https://wa.me/7999007075?text=Gostei do seu trabalho e gostaria de conhecer mais sobre, por favor" target='_blank' rel='noreferrer'>
                         <img src={whatsapp} alt="logo do whatsapp" />
                     </a>
                 </StyledList>
                 <StyledList>
-                    <a href="#">
+                    <a href="https://athena272portfolio.vercel.app/" target='_blank' rel='noreferrer'>
                         <img src={google} alt="logo do google" />
                     </a>
                 </StyledList>
                 <StyledList>
-                    <a href="#">
+                    <a href="https://www.instagram.com/guigo_rosario" target='_blank' rel='noreferrer'>
                         <img src={instagram} alt="logo do instagram" />
                     </a>
                 </StyledList>
