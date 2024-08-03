@@ -29,24 +29,33 @@ export default function Footer() {
         <StyledFooter>
             <StyledList>
                 <StyledList>
-                    <a href="https://wa.me/7999007075?text=Gostei do seu trabalho e gostaria de conhecer mais sobre, por favor" target='_blank' rel='noreferrer'>
-                        <img src={facebook} alt="logo do facebook" />
-                    </a>
+                    <StyledItem>
+                        <a href="https://wa.me/7999007075?text=Gostei do seu trabalho e gostaria de conhecer mais sobre, por favor" target='_blank' rel='noreferrer'>
+                            <img src={facebook} alt="logo do facebook" />
+                        </a>
+                    </StyledItem>
                 </StyledList>
                 <StyledList>
-                    <a href="https://wa.me/7999007075?text=Gostei do seu trabalho e gostaria de conhecer mais sobre, por favor" target='_blank' rel='noreferrer'>
-                        <img src={whatsapp} alt="logo do whatsapp" />
-                    </a>
+                    <StyledItem>
+                        <a href="https://wa.me/7999007075?text=Gostei do seu trabalho e gostaria de conhecer mais sobre, por favor" target='_blank' rel='noreferrer'>
+                            <img src={whatsapp} alt="logo do whatsapp" />
+                        </a>
+                    </StyledItem>
                 </StyledList>
                 <StyledList>
-                    <a href="https://athena272portfolio.vercel.app/" target='_blank' rel='noreferrer'>
-                        <img src={google} alt="logo do google" />
-                    </a>
+                    <StyledItem>
+                        <a href="https://athena272portfolio.vercel.app/" target='_blank' rel='noreferrer'>
+                            <img src={google} alt="logo do google" />
+                        </a>
+                    </StyledItem>
                 </StyledList>
                 <StyledList>
-                    <a href="https://www.instagram.com/guigo_rosario" target='_blank' rel='noreferrer'>
-                        <img src={instagram} alt="logo do instagram" />
-                    </a>
+                    <StyledItem>
+
+                        <a href="https://www.instagram.com/guigo_rosario" target='_blank' rel='noreferrer'>
+                            <img src={instagram} alt="logo do instagram" />
+                        </a>
+                    </StyledItem>
                 </StyledList>
             </StyledList>
             <p> 2023 Desenvolvido por Guilherme R. Alves | Projeto fictício sem fins comerciais. </p>
