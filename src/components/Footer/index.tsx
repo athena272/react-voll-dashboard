@@ -49,7 +49,7 @@ export default function Footer() {
                     </a>
                 </StyledList>
             </StyledList>
-            <p> 2023 Desenvolvido por Alura | Projeto fictício sem fins comerciais. </p>
+            <p> 2023 Desenvolvido por Guilherme R. Alves | Projeto fictício sem fins comerciais. </p>
         </StyledFooter>
     )
 }
