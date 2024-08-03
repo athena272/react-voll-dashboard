@@ -33,14 +33,14 @@ export default function MyTable({ consultas }: MyTableProps) {
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 700 }} aria-label="tabela-customizada">
                     <TableHead>
-                        <StyledRow>
+                        <TableRow>
                             <StyledCell>Data</StyledCell>
                             <StyledCell>Horário</StyledCell>
                             <StyledCell>Profissional</StyledCell>
                             <StyledCell>Especialidade</StyledCell>
                             <StyledCell>Paciente</StyledCell>
                             <StyledCell>Modalidade</StyledCell>
-                        </StyledRow>
+                        </TableRow>
                     </TableHead>
                     <TableBody>
                         {
