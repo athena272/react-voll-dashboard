@@ -1,6 +1,15 @@
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import IConsulta from "../../types/IConsulta";
+import IProfissional from "../../types/IProfissional";
+import useDadosGrafico from "../../hooks/useDadosGrafico";
 
-export default function Graphic() {
+type GraphicProps = {
+    consultas: IConsulta[] | null,
+    profissionais: IProfissional[] | null,
+}
+
+export default function Graphic({ consultas, profissionais }: GraphicProps) {
+    const dados = useDadosGrafico({ consultas, profissionais });
     return (
         <ResponsiveContainer width="100%" height={350}>
             <BarChart
