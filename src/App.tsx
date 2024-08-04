@@ -8,6 +8,8 @@ import Graphic from './components/Graphic';
 import Avaliation from './components/Avaliation';
 import useDadosConsulta from './hooks/useDadosConsulta';
 import useDadosProfissional from './hooks/useDadosProfissional';
+import Button from './components/Button';
+import Subtitle from './components/Subtitle';
 
 export default function App() {
   const { dados: consultas, error: consultasErro } = useDadosConsulta()
@@ -23,8 +25,16 @@ export default function App() {
       <Header />
       <Container>
         <Title>Área administrativa</Title>
+        <Button>Cadastrar especialista</Button>
+
+        <Title image='consulta'>Consultas do Dia</Title>
         <MyTable consultas={consultas} />
+
+        <Title image='grafico'>Consultas mensais por especialista</Title>
+        <Subtitle>Dezembro/22</Subtitle>
         <Graphic consultas={consultas} profissionais={profissionais} />
+
+        <Title image='avaliacao'>Avaliações de especialistas</Title>
         <Avaliation profissionais={profissionais} />
       </Container>
       <Footer />
