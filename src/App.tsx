@@ -5,6 +5,7 @@ import Title from './components/Title';
 import Footer from './components/Footer';
 import MyTable from './components/Table';
 import Graphic from './components/Graphic';
+import Avaliation from './components/Avaliation';
 import useDadosConsulta from './hooks/useDadosConsulta';
 import useDadosProfissional from './hooks/useDadosProfissional';
 
@@ -24,6 +25,7 @@ export default function App() {
         <Title>Área administrativa</Title>
         <MyTable consultas={consultas} />
         <Graphic consultas={consultas} profissionais={profissionais} />
+        <Avaliation profissionais={profissionais} />
       </Container>
       <Footer />
     </>
