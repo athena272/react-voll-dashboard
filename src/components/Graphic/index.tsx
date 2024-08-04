@@ -10,6 +10,7 @@ type GraphicProps = {
 }
 
 const StyledSection = styled.section`
+margin-top: 30px;
 background-color: var(--branco);
 border-radius: 16px;
 `
