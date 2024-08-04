@@ -1,6 +1,6 @@
-import evaluation from './assets/avaliacao.png';
-import graphic from './assets/grafico.png';
-import query from './assets/consulta.png';
+import avaliacao from './assets/avaliacao.png';
+import grafico from './assets/grafico.png';
+import consulta from './assets/consulta.png';
 import styled from 'styled-components';
 
 type TitleProps = {
@@ -9,9 +9,9 @@ type TitleProps = {
 }
 
 interface IImages {
-    evaluation: string,
-    graphic: string,
-    query: string
+    avaliacao: string,
+    grafico: string,
+    consulta: string
 }
 
 const StyledSpan = styled.span<TitleProps>`
@@ -25,6 +25,7 @@ background-image: ${props => props.image ? `url(${props.image})` : 'none'}
 
 const StyledTitle = styled.h2`
 color: var(--azul-claro);
+margin-left: 20px;
 `
 
 const StyledContainer = styled.div`
@@ -36,9 +37,9 @@ align-items: center;
 export default function Title({ image, children }: TitleProps) {
     console.log("🚀 ~ Title ~ image:", image)
     const imagesList: IImages = {
-        evaluation: evaluation,
-        graphic: graphic,
-        query: query
+        avaliacao: avaliacao,
+        grafico: grafico,
+        consulta: consulta
     }
 
     return (
